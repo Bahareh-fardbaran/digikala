@@ -1,0 +1,65 @@
+.red{
+    width: min-content;
+}
+.blue{
+    align-items: end;
+}
+
+.sub1:hover{
+    color: red;
+    background-color: rgb(180, 166, 166);
+
+}
+.item1{
+    margin-top: 10px;
+}
+.drop:hover{
+    border-bottom: 2px solid rgb(133, 6, 6);
+
+}
+.dropdown-item{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.dropdown-item:hover{
+    color: red;
+    background-color: white;
+}
+.dropdown-menu{
+    border: none;
+
+}
+.dropdown-menu:hover{
+    display: none;
+}
+
+.sub{
+    position: relative;
+}
+.sub-list{
+    z-index: 3;
+    display: none;
+    position: absolute;
+    right: 198px;
+    border-radius: 1px;
+    border: none;
+    background-color: white;
+    margin-top: 5px;
+  
+}
+.dropdown-menu .menu1:hover .sub-list{
+    display: block;
+}
+.menu1:hover .dropdown-menu{
+    display: block;
+}
+.menu1:hover .sub-list{
+    display: block;
+} 
+.a1:hover .sub-list{
+    display: block;
+}
+.sub-list{
+    display: none;
+}
